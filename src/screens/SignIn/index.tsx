@@ -4,7 +4,7 @@ import {
     View,
     TextInput,
     Image,
-    StatusBar,
+    
 
 } from 'react-native';
 
@@ -17,11 +17,7 @@ export function SignIn() { // se colocar export default deve ser exportado sem {
 
     return (
         <View style={styles.container}>
-            <StatusBar
-                barStyle="light-content"
-                backgroundColor="transparent"
-                translucent
-            />
+
             <Image
                 source={logo}
                 style={styles.image}
@@ -29,9 +25,9 @@ export function SignIn() { // se colocar export default deve ser exportado sem {
 
             <View style={styles.content}>
                 <Text style={styles.title}>
-                    Organize {`\n`}
-                    sua jogatinas {`\n`}
-                    facilmente {`\n`}
+                    Conecte-se {'\n'}
+                    e organize {'\n'}
+                    suas jogatinas. {'\n'}
                 </Text>
 
                 <Text style={styles.subtitle}>
